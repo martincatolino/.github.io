@@ -1,4 +1,5 @@
 
+
 body {
   
     margin:0;
@@ -151,7 +152,7 @@ a {
 
 
 
-}
+}    
 .uno p{
      font-size: 14px;
      padding: 16px;
@@ -172,7 +173,7 @@ a {
     border:none;
     background-color: #00F3BB;
     height:48px;
-    width:288px;
+    width:90%;
       }
     .btn:hover{
         background-image: linear-gradient( 225deg, #0000FE, #00F0B8 );
@@ -190,13 +191,16 @@ a {
       background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
       clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
      
-
-     
-     
-      
-      
-      
+ 
    }
+
+   .uno h2{
+    color:#060A24;
+    font-size: 34px;
+    margin-left: 235px;
+    margin-top: -50px;
+    position: absolute;
+  }
 
    .dos h1{
      
@@ -233,6 +237,9 @@ a {
      margin-top: 11px;
      width: 298px;
      height: 231px;
+     border: none;
+     background-color: transparent;
+
      
     
    }
@@ -305,74 +312,56 @@ a {
     margin-top: -4.8px;
   }
 
-  .icons{
-    
-    display: flex;
-    
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    margin-top: -50px ;
-   
-   
-    
-  }
-
-  .divicon{
-    margin-top: 94px;
-
-  }
-
-  .nombreiconos{
-
-    display: flex;
-    margin-top: -770px;
-
-    
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    
+  .section-wrapper{
+    display: block;
+    text-align: center;
     
 
+}
+.section-wrapper div{
+  padding-top: 49px;
+}
 
-  }
+.section-wrapper p{
+  font-weight: bolder;
+  font-size: 24px;
+color: #060A24;
+letter-spacing: 0;
+text-align: center;
+
+}
+.container h1{
+  font-size: 36px;
+color: #060A24;
+letter-spacing: 0;
+line-height: 42px;
+width: 288px;
+margin-left: 16px;
+}
+
+ 
+.section-wrapper img{
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.section-wrapper img:hover{
+  -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+
+}
+
  
 
 
 
 
-  .nombreiconos h2{
-    
-    font-size: 24px;
-    color: #060A24;
-    letter-spacing: 0;
-    text-align: center;
-    
-   
-
-  }
-
-  .nombreiconos .h2nombreiconos{
-    height: 64px;
-    margin-top: 140px;
-    
-
-
-  }
+  
 
 
 
-  .logos h1{
-    width: 288px;
-    font-size: 36px;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 42px;
-    margin-left: 16px;
-    margin-top: 48px ;
-
-  }
+  
   
 
 
@@ -402,11 +391,12 @@ a {
     color:white;
     letter-spacing: 0;
     text-align: center;
+    
   
     line-height: 42px;
     position: absolute;
     margin-top:64px ;
-    margin-left:16px ;
+    margin-left:35px ;
     width: 288px;
     height: 126px;
     
@@ -427,11 +417,11 @@ a {
     text-align:center;
     margin-top:226px;
     margin-left:16px;
-    margin-right:16px;
+   
     border:none;
     background-color: #00F3BB;
     height:48px;
-    width:288px;
+    width:90%;
       }
     .btnn:hover{
         background-image: linear-gradient( 225deg, #0000FE, #00F0B8 );
@@ -477,6 +467,18 @@ a {
   
      }
 
+     .img-wrapper img{
+      width: 100%;
+      max-width: 100%;
+      margin-top: -5px;
+   
+      
+
+  }
+
+  
+
+  
     
 
 
@@ -525,7 +527,13 @@ a {
       color: rgba(6,10,36,0.56);
 
      }
-     
+     .uno h2{
+      color: #0000EC;
+      font-size: 64px;
+      margin-left: 955px;
+      margin-top: -135px;
+      position: absolute;
+    }
 
       .uno h1{
         font-size: 64px;
@@ -671,51 +679,32 @@ a {
         
       }
       
-      .nombreiconos{
+      
 
-        display: flex;
-     
-        flex-direction:row;
-       
-        position: absolute;
-        margin-left:150px ;
-        margin-top: -140px;
-        
-        
-    
-    
-      }
-
-      .logos h1{
-
-       width: 600px;
-        font-size: 48px;
-        color: #060A24;
-        letter-spacing: 0;
-        margin-left: 200px;
-
-      }
-
-
-      .nombreiconos h2{
-        font-size: 24px;
-        margin-left:110px ;
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-weight: bold;
-
-
-      }
-
-      .icons{
+      .section-wrapper{
         display: flex;
         flex-direction: row;
-        margin-left:-150px;
+        flex-wrap: wrap;
         
+        justify-content: space-around ;
+       
+        
+       }
 
-      }
-      .divicon{
-        margin-left: 156px
-      }
+
+
+
+
+
+
+       .container h1{
+         margin-left: 200px;
+         width: 30%;
+
+       }
+
+    
+
 
 
       .seis{
@@ -745,6 +734,8 @@ a {
    .btnn{
      margin-top: 311px;
      margin-left: 547px;
+     height:56px;
+    width:345px;
    }
       
    .redes{
@@ -766,6 +757,19 @@ a {
 
   }
 
+  .img-wrapper img{
+      
+    width: 100%;
+    max-width: 33.33%;
+
+
+
+
+}
+.img-wrapper {
+    text-align: center;
+}
+  
 
 
     }
